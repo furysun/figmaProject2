@@ -1,4 +1,5 @@
-.idea
-*.iml
-/app/node_modules
-/app/build
+.idea/
+figmaProject2.iml
+node_modules
+build
+.DS_Store
