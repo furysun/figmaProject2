@@ -15,5 +15,19 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, '.'),
         port: 4200
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [
+                    'file-loader'
+                ]
+            }
+        ]
     }
 };
