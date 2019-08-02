@@ -15,7 +15,6 @@ p {
 }
 
 .head {
-    /*position: relative;*/
     width: 1440px;
     height: 726px;
     margin: auto;
@@ -493,10 +492,91 @@ p {
 }
 
 .footer {
+    display: flex;
     background-color: #999999;
     width: 1440px;
-    height: 100px;
+    height: 65px;
     margin: auto;
 }
 
+.footer-wrapper {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 165px;
+    width: 1122px;
+    height: 17px;
+}
+
+.creat-tim {
+    width: 79px;
+    height: 15px;
+    margin-right: 33px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.licenses {
+    width: 55px;
+    height: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.about-us {
+    width: 57px;
+    height: 15px;
+    margin-right: 33px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.blog {
+    width: 31px;
+    height: 15px;
+    margin-right: 33px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.lice {
+    width: 228px;
+    height: 17px;
+    margin-left: 573px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+
+    color: #000000;
+
+}
 
