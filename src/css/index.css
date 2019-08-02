@@ -7,6 +7,13 @@ p {
     color: gray;
 }
 
+.main {
+    width: 1440px;
+    margin: auto;
+    background-color: #999999;
+
+}
+
 .head {
     /*position: relative;*/
     width: 1440px;
@@ -26,14 +33,14 @@ p {
 }
 
 .creative-team {
-    width: 99px;
-    height: 22px;
+    min-width: 99px;
+    max-width: 22px;
     margin-right: 624px;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
+    /*text-align: center;*/
     color: #FFFFFF;
 }
 
@@ -42,7 +49,7 @@ p {
 }
 
 .down {
-    margin-right: 24px;
+    min-width: 150px;
 }
 
 .social-networks {
@@ -485,10 +492,11 @@ p {
     color: #FFFFFF;
 }
 
-/*.footer{*/
-/*    background-color: #999999;*/
-/*    width: 1440px;*/
-/*    height: 3700px;*/
-/*}*/
+.footer {
+    background-color: #999999;
+    width: 1440px;
+    height: 100px;
+    margin: auto;
+}
 
 
