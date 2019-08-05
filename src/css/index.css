@@ -102,6 +102,10 @@ p {
     box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
     border-radius: 3px;
 }
+.video-button:hover{
+    background: #dc3432;
+
+}
 
 .video-button-arrow {
     width: 15px;
@@ -490,6 +494,9 @@ p {
     border-radius: 3px;
     color: #FFFFFF;
 }
+.button:hover{
+    background: #802594;
+}
 
 .footer {
     display: flex;
@@ -591,6 +598,9 @@ a {
     color: #F44336;
 
 }
+.a-content{
+    color: #999999;
+}
 
 a:hover {
     color: #9C27B0;
@@ -603,4 +613,5 @@ a:hover {
     {
         overflow-x: hidden;
     }
+
 }
