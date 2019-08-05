@@ -575,8 +575,32 @@ p {
     font-size: 10px;
     line-height: 11px;
     text-align: center;
-
     color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.a-header {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.a-header:hover{
+    color: #F44336;
 
 }
 
+a:hover {
+    color: #9C27B0;
+
+}
+
+@media  only screen and (max-width: 600px) {
+
+    html,body
+    {
+        overflow-x: hidden;
+    }
+}
