@@ -102,7 +102,8 @@ p {
     box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
     border-radius: 3px;
 }
-.video-button:hover{
+
+.video-button:hover {
     background: #dc3432;
 
 }
@@ -494,7 +495,8 @@ p {
     border-radius: 3px;
     color: #FFFFFF;
 }
-.button:hover{
+
+.button:hover {
     background: #802594;
 }
 
@@ -594,11 +596,13 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 }
-.a-header:hover{
+
+.a-header:hover {
     color: #F44336;
 
 }
-.a-content{
+
+.a-content {
     color: #999999;
 }
 
@@ -607,11 +611,84 @@ a:hover {
 
 }
 
-@media  only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
-    html,body
-    {
+    html, body {
         overflow-x: hidden;
     }
 
+    .main {
+        width: 375px;
+    }
+
+    .head {
+        width: 375px;
+        height: 426px;
+        margin: auto;
+        background-image: url("../img/1.png");
+    }
+    .headline {
+        width: 320px;
+        height: 55px;
+        margin: auto;
+        font-style: normal;
+        font-family: Roboto;
+        font-weight: 100;
+        font-size: 21.2px;
+        line-height: 62px;
+    }
+
+    .header {
+        width: 375px;
+        height: 304px;
+        margin-left: 0px;
+        margin-top: 107px;
+        color: #FFFFFF;
+    }
+
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 24px;
+        /*background-color: pink;*/
+        padding-left: 35px;
+        padding-top: 19px;
+        color: #FFFFFF;
+    }
+
+    .creative-team {
+        padding-bottom: 8px;
+    }
+
+    .component {
+        padding-bottom: 8px;
+
+    }
+
+    .down {
+        padding-bottom: 8px;
+    }
+
+    .description {
+        width: 330px;
+        height: 72px;
+        margin: 11px auto auto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18.2px;
+        line-height: 21px;
+    }
+    .video-button {
+        width: 179px;
+        height: 54px;
+        margin-left: 100px;
+        margin-top: 48px;
+        color: #F8F8FF;
+        border: none;
+        background: #F44336;
+        box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+        border-radius: 3px;
+    }
 }
