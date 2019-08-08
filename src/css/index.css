@@ -119,17 +119,13 @@ p {
 }
 
 .content {
-    /*position: absolute;*/
-    /*margin-top: 666px;*/
     width: 1380px;
     height: 2045px;
     margin: -50px auto auto;
-
     background: #FFFFFF;
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
 }
-
 
 .topic {
     width: 277px;
@@ -393,6 +389,7 @@ p {
 .head-work {
     width: 209px;
     height: 43px;
+    padding-bottom: 10px;
     margin: auto;
     font-family: Roboto;
     font-style: normal;
@@ -400,6 +397,18 @@ p {
     font-size: 36.4px;
     line-height: 43px;
     color: #3C4858;
+}
+
+.social-networks-team {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 135px;
+}
+
+.social-networks-team-d {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 158px;
 }
 
 .info-work {
@@ -695,7 +704,7 @@ a:hover {
 
     .content {
         width: 375px;
-        height: 3150px;
+        height: 3060px;
         margin: -60px auto auto;
         background: #FFFFFF;
         box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
@@ -722,7 +731,7 @@ a:hover {
         display: flex;
         flex-direction: column;
 
-        margin-top: 86px;
+        margin-top: 36px;
     }
 
     .info {
@@ -768,6 +777,7 @@ a:hover {
     .card-team {
         width: 352px;
         height: 412px;
+        padding-top: 20px;
         margin: auto;
         /* margin-right: 38px; */
         /* background-color: papayawhip; */
@@ -776,9 +786,8 @@ a:hover {
     .work {
         width: 375px;
         height: 423px;
-
         margin: auto;
-        margin-top: 905px;
+        margin-top: 845px;
     }
 
     .prof-wrapper {
@@ -834,4 +843,62 @@ a:hover {
     .button {
         margin-left: 125px;
     }
+
+    .biography {
+        margin-top: 15px;
+    }
+
+    .footer {
+        display: flex;
+        width: 375px;
+        height: 175px;
+        background-color: #999999;
+
+        margin: auto;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 1122px;
+        height: 17px;
+        margin: auto;
+        margin-top: 32px;
+    }
+
+    .lice {
+        width: 375px;
+        height: 17px;
+        margin-left: 45px;
+        margin-top: 15px;
+        font-family: FontAwesome;
+        font-size: 15px;
+    }
+
+    .creat-tim {
+        margin-left: 35px;
+
+        margin-bottom: 10px;
+    }
+
+    .licenses {
+        margin-left: 35px;
+
+        margin-bottom: 10px;
+
+    }
+
+    .about-us {
+        margin-left: 35px;
+
+        margin-bottom: 10px;
+
+    }
+
+    .blog {
+        margin-left: 35px;
+
+        margin-bottom: 10px;
+    }
+
 }
