@@ -387,7 +387,6 @@ p {
     height: 423px;
     margin: auto;
     margin-top: 185px;
-    /*background-color: papayawhip;*/
 
 }
 
@@ -627,6 +626,7 @@ a:hover {
         margin: auto;
         background-image: url("../img/1.png");
     }
+
     .headline {
         width: 320px;
         height: 55px;
@@ -652,7 +652,6 @@ a:hover {
         flex-direction: column;
         width: 375px;
         height: 24px;
-        /*background-color: pink;*/
         padding-left: 35px;
         padding-top: 19px;
         color: #FFFFFF;
@@ -680,6 +679,7 @@ a:hover {
         font-size: 18.2px;
         line-height: 21px;
     }
+
     .video-button {
         width: 179px;
         height: 54px;
@@ -690,5 +690,148 @@ a:hover {
         background: #F44336;
         box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
         border-radius: 3px;
+    }
+
+
+    .content {
+        width: 375px;
+        height: 3150px;
+        margin: -60px auto auto;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 6px;
+    }
+
+    .topic {
+        width: 277px;
+        height: 43px;
+        margin: auto;
+        padding-top: 95px;
+        padding-left: 11px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36.4px;
+        line-height: 43px;
+
+        color: #3C4858;
+    }
+
+
+    .team-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 86px;
+    }
+
+    .info {
+        width: 360px;
+        height: 70px;
+        margin: auto;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 161px;
+        margin-left: 1px;
+    }
+
+
+    .card {
+        width: 328px;
+        height: 201px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .team {
+        width: 375px;
+        height: 541px;
+        margin-left: 0px;
+        margin-top: 18px;
+    }
+
+    .head-team {
+        width: 268px;
+        height: 43px;
+        margin: auto;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36.4px;
+        line-height: 43px;
+        color: #3C4858;
+    }
+
+    .card-team {
+        width: 352px;
+        height: 412px;
+        margin: auto;
+        /* margin-right: 38px; */
+        /* background-color: papayawhip; */
+    }
+
+    .work {
+        width: 375px;
+        height: 423px;
+
+        margin: auto;
+        margin-top: 905px;
+    }
+
+    .prof-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 55px;
+    }
+
+    .info-work {
+        width: 353px;
+        height: 72px;
+        margin: auto;
+        /*padding-top: 50px;*/
+        padding-bottom: 10px;
+    }
+
+    .profile {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .head-prof-name {
+        padding-left: 12px;
+    }
+
+    .prof-name {
+        padding-left: 12px;
+    }
+
+    .head-prof-name {
+        padding-left: 12px;
+
+    }
+
+    .email {
+        padding-left: 12px;
+    }
+
+    .u-message {
+        width: 370px;
+        height: 92px;
+        border: 0px solid;
+        padding-top: 0px;
+        padding-left: 12px;
+        border-bottom: 1px solid gray;
+    }
+
+    .head-u-message {
+        padding-left: 12px;
+        margin-left: 0px;
+    }
+
+    .button {
+        margin-left: 125px;
     }
 }
