@@ -11,7 +11,6 @@ p {
     width: 1440px;
     margin: auto;
     background-color: #999999;
-
 }
 
 .head {
@@ -672,7 +671,6 @@ a:hover {
 
     .component {
         padding-bottom: 8px;
-
     }
 
     .down {
@@ -899,6 +897,55 @@ a:hover {
         margin-left: 35px;
 
         margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    html, body {
+        overflow-x: hidden;
+        background-color: blueviolet;
+    }
+
+    .head {
+        width: 768px;
+        height: 597px;
+        margin: auto;
+        background-image: url("../img/1.png");
+    }
+
+    .main {
+        width: 768px;
+        margin: auto;
+        background-color: #999999;
+    }
+
+    .nav-bar {
+        width: 768px;
+        height: 67px;
+        padding-left: 24px;
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .creative-team {
+        min-width: 99px;
+        max-width: 22px;
+        margin-right: 245px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        /*text-align: center;*/
+        color: #FFFFFF;
+    }
+
+    .header {
+        width: 716px;
+        height: 302px;
+        margin-left: 24px;
+        margin-top: 107px;
+        color: #FFFFFF;
     }
 
 }
