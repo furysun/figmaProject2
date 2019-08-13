@@ -231,7 +231,6 @@ p {
     font-size: 36.4px;
     line-height: 43px;
     /* identical to box height */
-
     color: #3C4858;
 }
 
@@ -278,7 +277,6 @@ p {
     font-weight: 500;
     font-size: 18.2px;
     line-height: 21px;
-
     color: #3C4858;
 }
 
@@ -380,7 +378,6 @@ p {
     height: 423px;
     margin: auto;
     margin-top: 185px;
-
 }
 
 .head-work {
@@ -737,7 +734,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .info {
         width: 360px;
-        height: 70px;
+        /*height: 70px;*/
         margin: auto;
     }
 
@@ -758,26 +755,26 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .team {
         width: 375px;
-        height: 541px;
+        /*height: 541px;*/
         margin-left: 0px;
         margin-top: 18px;
     }
 
     .head-team {
-        width: 268px;
-        height: 43px;
+        /*width: 268px;*/
+        /*height: 43px;*/
         margin: auto;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36.4px;
-        line-height: 43px;
-        color: #3C4858;
+        /*font-family: Roboto;*/
+        /*font-style: normal;*/
+        /*font-weight: normal;*/
+        /*font-size: 36.4px;*/
+        /*line-height: 43px;*/
+        /*color: #3C4858;*/
     }
 
     .card-team {
-        width: 352px;
-        height: 412px;
+        /*width: 352px;*/
+        /*height: 412px;*/
         padding-top: 20px;
         margin: auto;
         /* margin-right: 38px; */
@@ -786,7 +783,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .work {
         width: 375px;
-        height: 423px;
+        /*height: 423px;*/
         margin: auto;
         margin-top: 845px;
     }
@@ -969,17 +966,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .info {
-        width: 723px;
-        height: 70px;
+        /*width: 723px;*/
+        /*height: 70px;*/
         margin-left: 13px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 17.5px;
-        line-height: 21px;
-        text-align: center;
-
-        color: #999999;
+        /*font-family: Roboto;*/
+        /*font-style: normal;*/
+        /*font-weight: 300;*/
+        /*font-size: 17.5px;*/
+        /*line-height: 21px;*/
+        /*text-align: center;*/
+        /**/
+        /*color: #999999;*/
     }
 
     .cards {
@@ -998,17 +995,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .head-team {
-        width: 268px;
-        height: 43px;
+        /*width: 268px;*/
+        /*height: 43px;*/
         margin: auto;
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         margin-left: 241px;
 
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36.4px;
-        line-height: 43px;
-        color: #3C4858;
+        /*font-style: normal;*/
+        /*font-weight: normal;*/
+        /*font-size: 36.4px;*/
+        /*line-height: 43px;*/
+        /*color: #3C4858;*/
     }
 
     .team {
@@ -1038,14 +1035,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
         width: 713px;
         height: 81px;
 
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
+        /*font-family: Roboto;*/
+        /*font-style: normal;*/
+        /*font-weight: 300;*/
+        /*font-size: 14px;*/
+        /*line-height: 16px;*/
+        /*text-align: center;*/
         padding-left: 19px;
-        color: #999999;
+        /*color: #999999;*/
         margin-top: 15px;
     }
 
