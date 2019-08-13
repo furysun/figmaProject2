@@ -77,6 +77,7 @@ p {
     font-size: 53.2px;
     line-height: 62px;
 }
+
 .description {
     width: 549px;
     height: 72px;
@@ -135,6 +136,7 @@ p {
     border-radius: 6px;
     background: #FFFFFF;
 }
+
 .topic {
     width: 277px;
     height: 43px;
@@ -159,6 +161,7 @@ p {
     height: 201px;
     margin-right: 62px;
 }
+
 .img-card-one {
     width: 80px;
     height: 80px;
@@ -598,29 +601,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .head {
         width: 375px;
         height: 426px;
-        /*margin: auto;*/
-        /*background-image: url("../img/1.png");*/
     }
 
     .headline {
         width: 320px;
         height: 55px;
         margin: auto;
-        /*font-style: normal;*/
-        /*font-family: Roboto;*/
         font-weight: 100;
         font-size: 21.2px;
-        /*line-height: 62px;*/
     }
 
     .header {
         width: 375px;
-        /*height: 304px;*/
         margin-left: 0px;
         margin-top: 107px;
-        /*color: #FFFFFF;*/
     }
-
 
     .nav-bar {
         display: flex;
@@ -629,7 +624,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         height: 24px;
         padding-left: 35px;
         padding-top: 19px;
-        /*color: #FFFFFF;*/
     }
 
     .creative-team {
@@ -646,24 +640,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .description {
         width: 330px;
-        /*height: 72px;*/
         margin: 11px auto auto;
-        /*font-style: normal;*/
-        /*font-weight: normal;*/
-        /*font-size: 18.2px;*/
-        /*line-height: 21px;*/
     }
 
     .video-button {
-        /*width: 179px;*/
-        /*height: 54px;*/
         margin-left: 100px;
         margin-top: 48px;
-        /*color: #F8F8FF;*/
-        /*border: none;*/
-        /*background: #F44336;*/
-        /*box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);*/
-        /*border-radius: 3px;*/
     }
 
 
@@ -671,37 +653,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 375px;
         height: 3060px;
         margin: -60px auto auto;
-        /*background: #FFFFFF;*/
-        /*box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);*/
-        /*border-radius: 6px;*/
     }
 
     .topic {
-        /*width: 277px;*/
-        /*height: 43px;*/
         margin: auto;
-        /*padding-top: 95px;*/
         padding-left: 11px;
-        /*font-family: Roboto;*/
-        /*font-style: normal;*/
-        /*font-weight: normal;*/
-        /*font-size: 36.4px;*/
-        /*line-height: 43px;*/
-
-        /*color: #3C4858;*/
     }
-
 
     .team-wrapper {
         display: flex;
         flex-direction: column;
-
         margin-top: 36px;
     }
 
     .info {
         width: 360px;
-        /*height: 70px;*/
         margin: auto;
     }
 
@@ -712,7 +678,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-left: 1px;
     }
 
-
     .card {
         width: 328px;
         height: 201px;
@@ -722,35 +687,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .team {
         width: 375px;
-        /*height: 541px;*/
         margin-left: 0px;
         margin-top: 18px;
     }
 
     .head-team {
-        /*width: 268px;*/
-        /*height: 43px;*/
         margin: auto;
-        /*font-family: Roboto;*/
-        /*font-style: normal;*/
-        /*font-weight: normal;*/
-        /*font-size: 36.4px;*/
-        /*line-height: 43px;*/
-        /*color: #3C4858;*/
     }
 
     .card-team {
-        /*width: 352px;*/
-        /*height: 412px;*/
         padding-top: 20px;
         margin: auto;
-        /* margin-right: 38px; */
-        /* background-color: papayawhip; */
     }
 
     .work {
         width: 375px;
-        /*height: 423px;*/
         margin: auto;
         margin-top: 845px;
     }
@@ -763,9 +714,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .info-work {
         width: 353px;
-        /*height: 72px;*/
         margin: auto;
-        /*padding-top: 50px;*/
         padding-bottom: 10px;
     }
 
@@ -793,11 +742,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .u-message {
         width: 358px;
-        /*height: 92px;*/
-        /*border: 0px solid;*/
-        /*padding-top: 0px;*/
         padding-left: 12px;
-        /*border-bottom: 1px solid gray;*/
     }
 
     .head-u-message {
@@ -817,16 +762,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: flex;
         width: 375px;
         height: 175px;
-        /*background-color: #999999;*/
-        /**/
-        /*margin: auto;*/
     }
 
     .footer-wrapper {
         display: flex;
         flex-direction: column;
-        /*width: 1122px;*/
-        /*height: 17px;*/
         margin: auto;
         margin-top: 32px;
     }
@@ -852,17 +792,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .about-us {
         margin-left: 35px;
-
         margin-bottom: 10px;
 
     }
 
     .blog {
         margin-left: 35px;
-
         margin-bottom: 10px;
     }
-
 }
 
 @media only screen
@@ -878,14 +815,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .head {
         width: 768px;
         height: 597px;
-        /*margin: auto;*/
-        /*background-image: url("../img/1.png");*/
     }
 
     .main {
         width: 768px;
-        /*margin: auto;*/
-        /*background-color: #999999;*/
     }
 
     .nav-bar {
@@ -896,14 +829,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .creative-team {
-        /*min-width: 99px;*/
-        /*max-width: 22px;*/
         margin-right: 245px;
-        /*font-style: normal;*/
-        /*font-weight: 300;*/
-        /*font-size: 18px;*/
-        /*line-height: 21px;*/
-        /*color: #FFFFFF;*/
     }
 
     .header {
@@ -911,36 +837,20 @@ and (-webkit-min-device-pixel-ratio: 1) {
         height: 302px;
         margin-left: 24px;
         margin-top: 107px;
-        /*color: #FFFFFF;*/
     }
 
     .content {
         width: 748px;
         height: 3192px;
         margin: -50px auto auto;
-        /*background: #FFFFFF;*/
-        /*box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);*/
-        /*border-radius: 6px;*/
     }
 
     .topic {
-        /*width: 277px;*/
-        /*height: 43px;*/
         padding-left: 236px;
     }
 
     .info {
-        /*width: 723px;*/
-        /*height: 70px;*/
         margin-left: 13px;
-        /*font-family: Roboto;*/
-        /*font-style: normal;*/
-        /*font-weight: 300;*/
-        /*font-size: 17.5px;*/
-        /*line-height: 21px;*/
-        /*text-align: center;*/
-        /**/
-        /*color: #999999;*/
     }
 
     .cards {
@@ -950,7 +860,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
         margin-left: 1px;
     }
 
-
     .card {
         width: 328px;
         height: 201px;
@@ -959,17 +868,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .head-team {
-        /*width: 268px;*/
-        /*height: 43px;*/
         margin: auto;
-        /*font-family: Roboto;*/
         margin-left: 241px;
-
-        /*font-style: normal;*/
-        /*font-weight: normal;*/
-        /*font-size: 36.4px;*/
-        /*line-height: 43px;*/
-        /*color: #3C4858;*/
     }
 
     .team {
@@ -977,36 +877,24 @@ and (-webkit-min-device-pixel-ratio: 1) {
         height: 1100px;
         margin-left: 0px;
         margin-top: 108px;
-        /*background-color: lavender;*/
     }
 
     .team-wrapper {
         display: flex;
         flex-direction: column;
-
         margin-top: 36px;
     }
 
     .card-team {
         width: 713px;
         height: 370px;
-
         margin-right: 19px;
-        /*background-color: papayawhip;*/
     }
 
     .biography {
         width: 713px;
         height: 81px;
-
-        /*font-family: Roboto;*/
-        /*font-style: normal;*/
-        /*font-weight: 300;*/
-        /*font-size: 14px;*/
-        /*line-height: 16px;*/
-        /*text-align: center;*/
         padding-left: 19px;
-        /*color: #999999;*/
         margin-top: 15px;
     }
 
@@ -1026,14 +914,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .info-work {
         width: 709px;
-        /*height: 72px;*/
-        /**/
-        /*font-family: Roboto;*/
-        /*font-style: normal;*/
-        /*font-weight: 300;*/
-        /*font-size: 18.2px;*/
-        /*line-height: 21px;*/
-        /*text-align: center;*/
     }
 
     .prof-wrapper {
@@ -1044,7 +924,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .u-message {
         width: 716px;
-        /*height: 92px;*/
     }
 
     .email {
@@ -1067,10 +946,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .footer {
         display: flex;
-        /*background-color: #999999;*/
-        /*width: 1440px;*/
         height: 117px;
-        /*margin: auto;*/
     }
 
     .footer-wrapper {
