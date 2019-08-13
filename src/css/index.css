@@ -24,7 +24,6 @@ p {
     display: flex;
     width: 1128px;
     height: 24px;
-    /*background-color: pink;*/
     padding-left: 150px;
     padding-top: 37px;
     color: #FFFFFF;
@@ -38,7 +37,6 @@ p {
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
-    /*text-align: center;*/
     color: #FFFFFF;
 }
 
@@ -68,7 +66,6 @@ p {
     margin-left: 149px;
     margin-top: 207px;
     color: #FFFFFF;
-    /*background-color: pink;*/
 }
 
 .headline {
@@ -80,62 +77,39 @@ p {
     font-size: 53.2px;
     line-height: 62px;
 }
-
 .description {
     width: 549px;
     height: 72px;
     margin-top: 11px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18.2px;
     line-height: 21px;
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 .video-button {
     width: 179px;
     height: 54px;
     margin-top: 42px;
-    color: #F8F8FF;
     border: none;
-    background: #F44336;
     box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
     border-radius: 3px;
+    background: #F44336;
+    color: #F8F8FF;
 }
 
 .video-button:hover {
     background: #dc3432;
-
 }
 
 .video-button-arrow {
     width: 15px;
     height: 18px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-}
-
-.content {
-    width: 1380px;
-    height: 2045px;
-    margin: -50px auto auto;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-}
-
-.topic {
-    width: 277px;
-    height: 43px;
-    padding-top: 95px;
-    padding-left: 552px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 36.4px;
-    line-height: 43px;
-    color: #3C4858;
 }
 
 .info {
@@ -143,13 +117,35 @@ p {
     height: 70px;
     margin-left: 331px;
     margin-top: 38px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 17.5px;
+    font-family: Roboto;
     line-height: 21px;
+    font-style: normal;
     text-align: center;
     color: #999999;
+}
+
+
+.content {
+    width: 1380px;
+    height: 2045px;
+    margin: -50px auto auto;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background: #FFFFFF;
+}
+.topic {
+    width: 277px;
+    height: 43px;
+    padding-top: 95px;
+    padding-left: 552px;
+    font-size: 36.4px;
+    line-height: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #3C4858;
 }
 
 .cards {
@@ -162,39 +158,37 @@ p {
     width: 328px;
     height: 201px;
     margin-right: 62px;
-    /*background-color: pink;*/
 }
-
 .img-card-one {
-    background-image: url("../img/2.png");
-    margin-left: 125px;
     width: 80px;
     height: 80px;
+    margin-left: 125px;
+    background-image: url("../img/2.png");
 }
+
 
 .img-card-two {
-    background-image: url("../img/3.png");
     width: 80px;
     height: 80px;
     margin-left: 125px;
+    background-image: url("../img/3.png");
 }
 
 .img-card-three {
-    background-image: url("../img/4.png");
     width: 80px;
     height: 80px;
     margin-left: 125px;
+    background-image: url("../img/4.png");
 }
 
 .head-card {
-    /*width: 113px;*/
     height: 24px;
     margin-top: 31px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
+    font-family: Roboto;
+    font-style: normal;
     text-align: center;
     color: #3C4858;
 }
@@ -203,13 +197,12 @@ p {
     width: 328px;
     height: 58px;
     margin-top: 18px;
+    font-weight: 300;
+    line-height: 16px;
+    font-size: 14px;
+    text-align: center;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-
     color: #999999;
 }
 
@@ -218,7 +211,6 @@ p {
     height: 541px;
     margin-left: 125px;
     margin-top: 208px;
-    /*background-color: lavender;*/
 }
 
 .head-team {
@@ -226,11 +218,10 @@ p {
     height: 43px;
     margin-left: 430px;
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 36.4px;
     line-height: 43px;
-    /* identical to box height */
+    font-style: normal;
+    font-weight: normal;
     color: #3C4858;
 }
 
@@ -238,7 +229,6 @@ p {
     width: 352px;
     height: 412px;
     margin-right: 38px;
-    /*background-color: papayawhip;*/
 }
 
 .avatar {
@@ -272,11 +262,11 @@ p {
     width: 85px;
     height: 22px;
     margin: 32px auto auto;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 18.2px;
     line-height: 21px;
+    font-style: normal;
+    font-family: Roboto;
     color: #3C4858;
 }
 
@@ -285,14 +275,11 @@ p {
     height: 22px;
     margin: auto;
     margin-top: 32px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 18.2px;
     line-height: 21px;
-    /* identical to box height */
-
-    color: #3C4858;
+    font-family: Roboto;
+    font-style: normal;
 }
 
 .name-three {
@@ -300,13 +287,11 @@ p {
     height: 22px;
     margin: auto;
     margin-top: 32px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 18.2px;
     line-height: 21px;
-    /* identical to box height */
-
+    font-style: normal;
+    font-family: Roboto;
     color: #3C4858;
 }
 
@@ -314,13 +299,11 @@ p {
     width: 39px;
     height: 16px;
     margin: auto;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 13.65px;
     line-height: 16px;
-    /* identical to box height */
-
+    font-style: normal;
+    font-family: Roboto;
     color: #777777;
 }
 
@@ -328,27 +311,24 @@ p {
     width: 55px;
     height: 16px;
     margin: auto;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 13.65px;
     line-height: 16px;
-    /* identical to box height */
-
+    font-style: normal;
+    font-family: Roboto;
     color: #777777;
-
 }
 
 .biography {
     width: 352px;
     height: 123px;
     margin-top: 35px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
+    font-style: normal;
+    font-family: Roboto;
     color: #999999;
 }
 
@@ -385,11 +365,11 @@ p {
     height: 43px;
     padding-bottom: 10px;
     margin: auto;
+    font-size: 36.4px;
+    line-height: 43px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 36.4px;
-    line-height: 43px;
     color: #3C4858;
 }
 
@@ -409,12 +389,12 @@ p {
     width: 753px;
     height: 72px;
     margin-top: 38px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 18.2px;
     line-height: 21px;
     text-align: center;
+    font-style: normal;
+    font-family: Roboto;
     color: #999999;
 }
 
@@ -427,12 +407,11 @@ p {
 .head-prof-name {
     width: 50px;
     height: 12px;
+    font-size: 10px;
+    line-height: 12px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-
     color: #9C27B0;
 }
 
@@ -440,11 +419,11 @@ p {
     width: 68px;
     height: 12px;
     margin-left: 2px;
+    font-size: 10px;
+    line-height: 12px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
     color: #9C27B0;
 }
 
@@ -452,10 +431,8 @@ p {
     width: 361px;
     height: 25px;
     margin-right: 32px;
-
     border: 0px solid;
     border-bottom: 1px solid gray;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -467,15 +444,10 @@ p {
     height: 25px;
     border: 0px solid;
     border-bottom: 1px solid gray;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     color: #999999;
-}
-
-.message {
-    margin-top: 38px;
 }
 
 .u-message {
@@ -484,6 +456,10 @@ p {
     border: 0px solid;
     padding-top: 0px;
     border-bottom: 1px solid gray;
+}
+
+.message {
+    margin-top: 38px;
 }
 
 .button {
@@ -504,18 +480,18 @@ p {
 
 .footer {
     display: flex;
-    background-color: #999999;
     width: 1440px;
     height: 65px;
     margin: auto;
+    background-color: #999999;
 }
 
 .footer-wrapper {
     display: flex;
-    margin-top: 32px;
-    margin-left: 165px;
     width: 1122px;
     height: 17px;
+    margin-top: 32px;
+    margin-left: 165px;
 }
 
 .creat-tim {
@@ -528,21 +504,18 @@ p {
     font-size: 12px;
     line-height: 14px;
     text-align: center;
-
     color: #333333;
 }
 
 .licenses {
     width: 55px;
     height: 15px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     text-align: center;
-
     color: #333333;
 }
 
@@ -550,14 +523,12 @@ p {
     width: 57px;
     height: 15px;
     margin-right: 33px;
-
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
+    font-family: Roboto;
+    font-style: normal;
     text-align: center;
-
     color: #333333;
 }
 
@@ -565,14 +536,12 @@ p {
     width: 31px;
     height: 15px;
     margin-right: 33px;
-
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     text-align: center;
-
+    font-family: Roboto;
+    font-style: normal;
     color: #333333;
 }
 
@@ -612,8 +581,6 @@ a:hover {
     color: #9C27B0;
 
 }
-
-/*@media only screen and (max-width: 600px) */
 
 @media only screen
 and (min-device-width: 320px)
@@ -796,7 +763,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .info-work {
         width: 353px;
-        height: 72px;
+        /*height: 72px;*/
         margin: auto;
         /*padding-top: 50px;*/
         padding-bottom: 10px;
@@ -825,12 +792,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .u-message {
-        width: 370px;
-        height: 92px;
-        border: 0px solid;
-        padding-top: 0px;
+        width: 358px;
+        /*height: 92px;*/
+        /*border: 0px solid;*/
+        /*padding-top: 0px;*/
         padding-left: 12px;
-        border-bottom: 1px solid gray;
+        /*border-bottom: 1px solid gray;*/
     }
 
     .head-u-message {
@@ -850,16 +817,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: flex;
         width: 375px;
         height: 175px;
-        background-color: #999999;
-
-        margin: auto;
+        /*background-color: #999999;*/
+        /**/
+        /*margin: auto;*/
     }
 
     .footer-wrapper {
         display: flex;
         flex-direction: column;
-        width: 1122px;
-        height: 17px;
+        /*width: 1122px;*/
+        /*height: 17px;*/
         margin: auto;
         margin-top: 32px;
     }
@@ -875,15 +842,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .creat-tim {
         margin-left: 35px;
-
         margin-bottom: 10px;
     }
 
     .licenses {
         margin-left: 35px;
-
         margin-bottom: 10px;
-
     }
 
     .about-us {
@@ -1062,14 +1026,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .info-work {
         width: 709px;
-        height: 72px;
-
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18.2px;
-        line-height: 21px;
-        text-align: center;
+        /*height: 72px;*/
+        /**/
+        /*font-family: Roboto;*/
+        /*font-style: normal;*/
+        /*font-weight: 300;*/
+        /*font-size: 18.2px;*/
+        /*line-height: 21px;*/
+        /*text-align: center;*/
     }
 
     .prof-wrapper {
@@ -1080,7 +1044,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .u-message {
         width: 716px;
-        height: 92px;
+        /*height: 92px;*/
     }
 
     .email {
@@ -1103,19 +1067,18 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .footer {
         display: flex;
-        background-color: #999999;
-        width: 1440px;
+        /*background-color: #999999;*/
+        /*width: 1440px;*/
         height: 117px;
-        margin: auto;
+        /*margin: auto;*/
     }
 
     .footer-wrapper {
+        display: flex;
         width: 559px;
         height: 62px;
-        display: flex;
         margin-top: 32px;
         margin-left: 39px;
-
     }
 
     .lice {
