@@ -32,7 +32,7 @@ p {
 .creative-team {
     min-width: 99px;
     max-width: 22px;
-    margin-right: 624px;
+    margin-right: 820px;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -213,7 +213,7 @@ p {
     width: 1133px;
     height: 541px;
     margin-left: 125px;
-    margin-top: 208px;
+    margin-top: 150px;
 }
 
 .head-team {
@@ -239,7 +239,7 @@ p {
     height: 170px;
     margin: auto;
     border-radius: 100px;
-    background: url(../img/Gigi-Hadid-01.jpg), #C4C4C4;
+    background: url(../img/foto.png), #C4C4C4;
     box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.3), 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -248,7 +248,7 @@ p {
     height: 170px;
     margin: auto;
     border-radius: 100px;
-    background: url(../img/men.jpg), #C4C4C4;
+    background: url(../img/foto_2.jpg), #C4C4C4;
     box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.3), 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -257,7 +257,7 @@ p {
     height: 170px;
     margin: auto;
     border-radius: 100px;
-    background: url(../img/images.jpg), #C4C4C4;
+    background: url(../img/foto.png), #C4C4C4;
     box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.3), 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -274,7 +274,7 @@ p {
 }
 
 .name-two {
-    width: 160px;
+    width: 120px;
     height: 22px;
     margin: auto;
     margin-top: 32px;
@@ -286,7 +286,7 @@ p {
 }
 
 .name-three {
-    width: 122px;
+    width: 98px;
     height: 22px;
     margin: auto;
     margin-top: 32px;
@@ -360,7 +360,7 @@ p {
     width: 753px;
     height: 423px;
     margin: auto;
-    margin-top: 185px;
+    margin-top: 85px;
 }
 
 .head-work {
@@ -552,10 +552,11 @@ p {
     width: 228px;
     height: 17px;
     margin-left: 573px;
-    font-family: FontAwesome;
+    font-family: Roboto;
     font-style: normal;
+
     font-weight: normal;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 11px;
     text-align: center;
     color: #000000;
